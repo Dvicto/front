@@ -1,0 +1,15 @@
+body{
+    width: 70%;
+    text-align: center;
+}
+h1, h3 {
+    font-family: "Capture it";
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+h1{
+    font-size: 32px;
+}
+figure {
+    float: right;
+}
