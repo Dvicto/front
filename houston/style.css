@@ -1,17 +1,33 @@
 body{
     width: 70%;
-    text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
 h1, h3 {
-    font-family: "Capture it";
+    font-family: sans-serif;
     margin-top: 30px;
     margin-bottom: 10px;
+    text-align: left;
 }
 h1{
     font-size: 32px;
+    text-align: left;
 }
 figure {
     float: right;
+    font-style: italic;
+}
+ol{
+    text-align: left;
+}
+
+td, th, caption{
+   border: 1px solid black;
+    border-collapse: collapse;
+}
+caption{
+    border-bottom: 0px;
+}
+table{
+    border: 1px solid black;
 }
