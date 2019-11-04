@@ -18,7 +18,7 @@ body{
 .thead figure{
     float: left;
 }
-.texthead{
+.text1head{
     display: flex;
     justify-content: end;
     align-items: center;
@@ -30,7 +30,7 @@ body{
     color: white;
     text-align: center;
 }
-.texthead p {
+.text1head p {
     padding-left: 10px;
 }
 .t2nd{
