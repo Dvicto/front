@@ -1,0 +1,14 @@
+@media screen and (min-width:576px){
+    .cards{
+        display: flex;
+        margin: 5vh 0;
+    }
+}
+@media screen and (max-width:576px){
+    .card{
+        margin: 5vh 0;
+    }
+}
+.card-footer{
+    padding: 3vh 0;
+}
