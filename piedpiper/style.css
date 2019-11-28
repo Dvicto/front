@@ -1,0 +1,138 @@
+body{
+    width: 100%;
+}
+
+.thead{
+    height: 84px;
+    background-color: #007765;
+    width: 100%;
+    padding-top: 5px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+.content{
+    width: 1219px;
+    padding: 0 55px;
+    margin: 0 auto;
+}
+.thead figure{
+    float: left;
+}
+.text1head{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+    text-align: center;
+}
+.text1head p {
+    padding-left: 10px;
+}
+.t2nd{
+    background-image: url("fon1.png");
+    background-size: cover;
+    padding: 154px 0px;
+}
+.t2nd .content{
+    color: white;
+    Font-Family: Roboto, serif;
+    Font-Size: 72px;
+    text-align: center;
+}
+.t3nd .content p{
+    font-family: Roboto, serif;
+    font-size: 32px;
+    text-align: left;
+}
+.t3nd .content h1 {
+    font-family: Roboto, serif;
+    font-size: 64px;
+    text-align: center;
+    color: #007765;
+}
+.t4nd{
+    background-image: url("fon2.png");
+    background-size: cover;
+    padding: 247px 0px;
+}
+.t4nd .content{
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56px;
+    text-align: center;
+    color: #fff;
+}
+.t5nd .content h1{
+    Font-Family: Roboto, serif;
+    Font-Size: 64px;
+    text-align: center;
+    color: #007765;
+}
+.t5nd  .content figure{
+    float: left;
+}
+.t5nd .content p{
+    Font-Family: Roboto, serif;
+    Font-Size: 32px;
+}
+.t6nd .content .t1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.t6nd .content .t2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.t6nd .content h1{
+    padding-top: 50px;
+    Font-Family: Roboto, serif;
+    Font-Size: 64px;
+    text-align: center;
+    color: #007765;
+}
+.t6nd{
+    background-color: #EEEEEE;
+}
+.t6nd .content h3{
+    Font-Family: Roboto, serif;
+    Font-size:24px;
+    Color: #007765;
+    text-align: center;
+}
+.t6nd .content p{
+    Font-Family: Roboto, serif;
+    Font-size:18px;
+    font-style: italic;
+    Color: black;
+    text-align: center;
+}
+.t6nd .content .team1 {
+    text-align: center;
+    flex-basis: 33%;
+
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+.podval {
+    background-color: black;
+}
+.podval .content{
+    color: white;
+    text-align: center;
+    font-family: Roboto, serif;
+    font-size: 18px;
+    line-height: 21px;
+    padding-top: 48px;
+    padding-bottom: 64px;
+}
