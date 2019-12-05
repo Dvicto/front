@@ -15,12 +15,15 @@ curl_setopt($fd, CURLOPT_RETURNTRANSFER, 1);
 $str = curl_exec($fd);
 curl_close($fd);
 preg_match_all ("/<[iI][mM][gG].*?[Ss][Rr][Cc].*?=\"(.*?)\"/", $str, $matches);
+$i = 0;
 foreach($matches[1] as &$value) {
     if ($value[0] == "/")
-        $value = $url . $value;
+        $array[$i] = $url . $value;
+    else
+    	$array[$i] = $value;
+    $i++;
 }
-
-foreach ($matches[1] as $value)
+foreach ($array as $value)
 {
     $img_name = basename($value);
     $path_name = $dir."/".$img_name;
