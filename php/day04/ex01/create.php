@@ -12,7 +12,7 @@
 	if (!($array = unserialize(file_get_contents("private/passwd")))){
 		$array[] = [
 			"login" => $_POST['login'],
-			"passwd" => hash("md5", $_POST['passwod'])
+			"passwd" => hash("whirlpool", $_POST['passwod'])
 		];
 		file_put_contents("private/passwd", serialize($array));
 		echo "OK\n";
@@ -27,7 +27,7 @@
 	}
 	$array[] = [
 		"login" => $_POST['login'],
-		"passwd" => hash("md5", $_POST['passwod'])
+		"passwd" => hash("whirlpool", $_POST['passwod'])
 	];
 	file_put_contents("private/passwd", serialize($array));
 	echo "OK\n";

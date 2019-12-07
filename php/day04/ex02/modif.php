@@ -14,8 +14,8 @@
 	foreach ($array as &$value)
 	{
 		if ($value["login"] == $_POST["login"]) {
-			if ($value["passwd"] == hash("md5",$_POST["oldpasswd"])) {
-				$value["passwd"] = hash("md5",$_POST["newpasswd"]);
+			if ($value["passwd"] == hash("whirlpool",$_POST["oldpasswd"])) {
+				$value["passwd"] = hash("whirlpool",$_POST["newpasswd"]);
 				file_put_contents("../ex01/private/passwd", serialize($array));
 				exit("OK\n");
 			} else {
