@@ -1,1 +1,1 @@
-DELETE FROM `db_pcollio-`.ft_table WHERE `id` <= 5;
+DELETE FROM `db_dvictor`.ft_table WHERE `id` <= 5;

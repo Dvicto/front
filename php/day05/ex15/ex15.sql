@@ -1,1 +1,1 @@
-SELECT reverse(substring(`phone_number`, 2)) AS `rebmunenohp` FROM `db_pcollio-`.distrib WHERE `phone_number` LIKE '05%';
+SELECT reverse(substring(`phone_number`, 2)) AS `rebmunenohp` FROM `db_dvictor`.distrib WHERE `phone_number` LIKE '05%';

@@ -1,4 +1,4 @@
-CREATE TABLE `db_pcollio-`.ft_table(
+CREATE TABLE `db_dvictor`.ft_table(
 	`id` INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
 	`login` VARCHAR(8) NOT NULL DEFAULT 'toto',
 	`group` ENUM('staff', 'student', 'other') NOT NULL,

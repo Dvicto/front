@@ -1,1 +1,1 @@
-SELECT `title`, `summary` FROM `db_pcollio-`.film WHERE LOWER(`summary`) LIKE '%vincent%' ORDER BY `id_film` ASC;
+SELECT `title`, `summary` FROM `db_dvictor`.film WHERE LOWER(`summary`) LIKE '%vincent%' ORDER BY `id_film` ASC;

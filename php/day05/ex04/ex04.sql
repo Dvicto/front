@@ -1,1 +1,1 @@
-UPDATE `db_pcollio-`.ft_table SET `creation_date` = DATE_ADD(`creation_date`, INTERVAL 20 YEAR) WHERE `id` > 5;
+UPDATE `db_dvictor`.ft_table SET `creation_date` = DATE_ADD(`creation_date`, INTERVAL 20 YEAR) WHERE `id` > 5;
