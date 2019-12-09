@@ -1,0 +1,1 @@
+DELETE FROM `db_pcollio-`.ft_table WHERE `id` <= 5;
